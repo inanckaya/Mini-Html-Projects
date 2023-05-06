@@ -1,0 +1,136 @@
+body {
+    background-image: url("images/back.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.app {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 76px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.sekmeler {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sekmeler a {
+    box-sizing: border-box;
+    padding: 4px;
+    line-height: 76px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, .1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sekmeler a:hover {
+    color: #eee;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 76px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+#anasayfa {
+    text-align: center;
+}
+
+#anasayfa h1 {
+    font-size: 37px;
+    color: #bb0876;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 0 50px #eee;
+}
+
+#anasayfa h2 {
+    font-size: 26px;
+    color: #980cb4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 0 50px #eee;
+}
+
+#hakkimizda {
+    text-align: center;
+}
+
+#adres {
+    text-align: center;
+}
+
+
+/* fotos divi */
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* fotos divi altındaki tüm a elementleri */
+
+.fotos a {
+    width: 20%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, .5);
+}
+
+.fotos a:hover {
+    box-shadow: 0 0 40px rgba(255, 255, 255, .5);
+}
+
+
+/* fotos divi altındaki tüm img elementleri */
+
+.fotos img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+}
+
+section h1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .1);
+    line-height: 36px;
+    color: #fff;
+}
+
+section img {
+    width: 60%;
+    margin-left: 10px;
+    float: left;
+}
+
+section p {
+    width: 30%;
+    margin-right: 10px;
+    float: right;
+    background-color: #fff;
+    padding: 25px;
+}
